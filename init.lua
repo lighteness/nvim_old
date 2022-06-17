@@ -1,11 +1,6 @@
-require('keybindings')
-require('packer').startup(function()
-  use 'tomasr/molokai'
-  use 'mfussenegger/nvim-dap'
-end)
+require "user.cmp"
 
-vim.g.colors_name = 'molokai'
-vim.g.mapleader = ','
+local fn = vim.fn
 
 local dap = require('dap')
 dap.adapters.node2 = {
@@ -32,3 +27,5 @@ dap.configurations.javascript = {
     processId = require'dap.utils'.pick_process,
   },
 }
+
+

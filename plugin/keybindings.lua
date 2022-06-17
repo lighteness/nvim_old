@@ -2,6 +2,7 @@ local keymap = vim.api.nvim_set_keymap
 keymap('n', '<c-s>', ':w<CR>',{})
 keymap('i', '<c-s>', '<Esc>:w<CR>a',{})
 local opts = { noremap = true }
+-- switch over to other windows
 keymap('n','<c-j>', '<c-w>j', opts)
 keymap('n','<c-h>', '<c-w>h', opts)
 keymap('n','<c-k>', '<c-w>k', opts)

@@ -69,19 +69,89 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "/Users/admin/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
+  },
+  ["cmp-cmdline"] = {
+    loaded = true,
+    path = "/Users/admin/.local/share/nvim/site/pack/packer/start/cmp-cmdline",
+    url = "https://github.com/hrsh7th/cmp-cmdline"
+  },
+  ["cmp-dap"] = {
+    loaded = true,
+    path = "/Users/admin/.local/share/nvim/site/pack/packer/start/cmp-dap",
+    url = "https://github.com/rcarriga/cmp-dap"
+  },
+  ["cmp-emoji"] = {
+    loaded = true,
+    path = "/Users/admin/.local/share/nvim/site/pack/packer/start/cmp-emoji",
+    url = "https://github.com/hrsh7th/cmp-emoji"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/Users/admin/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  ["cmp-nvim-lua"] = {
+    loaded = true,
+    path = "/Users/admin/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
+    url = "https://github.com/hrsh7th/cmp-nvim-lua"
+  },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "/Users/admin/.local/share/nvim/site/pack/packer/start/cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
+  },
+  ["cmp-tabnine"] = {
+    config = { "\27LJ\2\nº\1\0\0\6\0\5\0\n6\0\0\0'\2\1\0B\0\2\2\18\3\0\0009\1\2\0005\4\3\0004\5\0\0=\5\4\4B\1\3\1K\0\1\0\23ignored_file_types\1\0\5\24snippet_placeholder\a..\tsort\2\27run_on_every_keystroke\2\20max_num_results\3\20\14max_lines\3è\a\nsetup\23cmp_tabnine.config\frequire\0" },
+    loaded = true,
+    path = "/Users/admin/.local/share/nvim/site/pack/packer/start/cmp-tabnine",
+    url = "https://github.com/tzachar/cmp-tabnine"
+  },
+  cmp_luasnip = {
+    loaded = true,
+    path = "/Users/admin/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
   molokai = {
     loaded = true,
     path = "/Users/admin/.local/share/nvim/site/pack/packer/start/molokai",
     url = "https://github.com/tomasr/molokai"
   },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/Users/admin/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
+  },
   ["nvim-dap"] = {
     loaded = true,
     path = "/Users/admin/.local/share/nvim/site/pack/packer/start/nvim-dap",
     url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-lsp-installer"] = {
+    loaded = true,
+    path = "/Users/admin/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
+    url = "https://github.com/williamboman/nvim-lsp-installer"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/Users/admin/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["packer.nvim"] = {
+    loaded = true,
+    path = "/Users/admin/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    url = "https://github.com/wbthomason/packer.nvim"
   }
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: cmp-tabnine
+time([[Config for cmp-tabnine]], true)
+try_loadstring("\27LJ\2\nº\1\0\0\6\0\5\0\n6\0\0\0'\2\1\0B\0\2\2\18\3\0\0009\1\2\0005\4\3\0004\5\0\0=\5\4\4B\1\3\1K\0\1\0\23ignored_file_types\1\0\5\24snippet_placeholder\a..\tsort\2\27run_on_every_keystroke\2\20max_num_results\3\20\14max_lines\3è\a\nsetup\23cmp_tabnine.config\frequire\0", "config", "cmp-tabnine")
+time([[Config for cmp-tabnine]], false)
 if should_profile then save_profiles() end
 
 end)
